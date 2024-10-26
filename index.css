@@ -1,0 +1,77 @@
+@font-face{
+    font-family: CursedTimerUlil;
+    src: url("CursedTimerUlil-Aznm.ttf");
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #EEEEEE;
+    margin-bottom: 21px;
+    margin-top: 0px;
+}
+
+.score{
+    font-family: CursedTimerUlil;
+    background: black;
+    color: #F94F6D;
+    margin: 1px auto 5px auto;
+    font-size: 90px;
+    padding: 20px 80px;
+    border-radius: 5px;
+    }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    background: url("https://images.unsplash.com/photo-1527515047028-10b18ca90f24?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.board{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 68px;
+    padding-bottom: 68px;
+    padding-left: 82px;
+    padding-right: 83px;
+}
+
+.operator {
+    background: none;
+    width: 45px;
+    height: 45px;
+    color: #9AABD8;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    margin-top: 26px;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+
+#reset-btn {
+    padding: 10px 20px 10px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: #FBBF24;
+    margin: 10px;
+}
+
+.reset-region {
+    background: #B45309;
+    max-width: 80%;
+    margin: 0 auto;
+}
